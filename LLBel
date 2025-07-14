@@ -1,6 +1,1 @@
-python
-print("what is your name")
-input=name
-print("What is your last name?")
-input=ln
-len(ln)
+
