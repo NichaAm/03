@@ -1,0 +1,25 @@
+print("enter amount of money you use this week")
+print("Monday:")
+m = int(input())
+print("Tuesday:")
+t = int(input())
+print("wednesday:")
+w = int(input())
+print("Thursday:")
+th = int(input())
+print("Friday:")
+f = int(input())
+print("Saturday:")
+sat = int(input())
+print("Sunday:")
+s = int(input())
+
+
+#making a list
+used = [m,t,w,th,f,sat,s]
+#calculation
+highest=str(max(used))
+amount = str(int(sum(used) / 7))
+#result
+print( "your average amount per day for this week is" + amount +"!")
+print( "the highest amount per day" + highest +"!")
