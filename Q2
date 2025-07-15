@@ -1,0 +1,7 @@
+print("Enter a Buddhist Era (BE) year:")
+be = int(input())
+ce = be - 543
+if (ce % 4 == 0 and ce % 100 != 0) or (ce % 400 == 0):
+    print("it is a LEAP YEAR.")
+else:
+    print("it is not a LEAP YEAR.")
